@@ -22,13 +22,27 @@
         <div class="iconeText">Github</div>
     </div>
     <!-- icone Twitch -->
-    <div class="icone">
+    <div class="icone" onclick="openWindowTwitch()">
         <img src="img/icones/IconeTwitch.png" class="iconeImage">
         <div class="iconeText">Twitch</div>
     </div>
 
+    <div id="windowPlace">
+        
+    </div>
+    <div id="twitchWindow"><div class="controleUpBar">
+            <img src="img/btnClose.png" class="btnClose" onclick='closeWindow("twitchWindow")'>
+            <img src="img/btnSizeMax.png" class="btnSizeMax">
+        </div>
+    </div>
+
     <!-- barre des taches -->
-    <div id="barreTaches"></div>
+    <div id="barreTaches">
+        <img src="img/logo.png" id="barreTachesLogo">
+    </div>
+
+    <!-- scriptes -->
+    <script type="text/javascript" src="script/window.js"></script>
 </body>
 
 </html>
