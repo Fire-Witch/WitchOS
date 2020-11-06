@@ -1,0 +1,39 @@
+/* Font */
+@font-face {
+    font-family: magicFont;
+    src: url(../font/Campanile.ttf);
+  }
+@font-face {
+    font-family: gamePlayed;
+    src: url(../font/GamePlayed.otf);
+  }
+
+/* style générale */
+body{
+    /* on donne la largeur et la hauteur de base */
+    width: 98vh;  
+    height: 98vh;  
+    /* on donne une image en background, on la centre et on empèche l'image de se répeter */
+    background: url('../img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* style icones */
+.icone{
+    width: 65px;
+    height: 90px;
+}
+.iconeImage{
+    margin: auto;
+    width: 65px;
+    height: 65px;
+}
+.iconeText{
+    height: 25px;
+    width: 65px;
+    font-size: 20px;
+    text-align: center;
+    color: #cecece;
+    font-family: magicFont;
+}
